@@ -4,9 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab 7</title>
+    <link rel="stylesheet" href="styles.css">
     <script type="module" src="script.js"></script>
 </head>
 <body>
     <h1>JavaScript Events</h1>
+    <div class="form-events-container">
+        <form class="form-events" id="form-events" action="#" method="POST">
+            <label for="keyboard-events">Keyboard Events:</label><br>
+            <input type="text" id="keyboard-events" name="keyboard-events" required>
+
+            <br><label for="focus-blur">Focus and Blur:</label><br>
+            <textarea class="focus-blur" id="focus-blur" name="focus-blur" placeholder="Check our focus and blur events here!" required></textarea>
+
+            <button class="mouse-events" id="mouse-events" type="submit">Submit</button>
+        </form>
+    </div>
 </body>
 </html>
