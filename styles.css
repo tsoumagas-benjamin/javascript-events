@@ -36,15 +36,11 @@ button:hover {
     border-radius: 8px;
 }
 
-input, textarea {
+input {
     background-color: rgb(246, 216, 255);
     margin: 5px 0;
     font-family: Arial, sans-serif;
     width: 300px;
-}
-
-.focus-blur {
-    height: 150px;
 }
 
 .submit {
