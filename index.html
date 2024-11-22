@@ -12,14 +12,16 @@
     <div class="form-events-container">
         <form class="form-events" id="form-events" action="#" method="POST">
             <label for="keyboard-events">Keyboard Events:</label><br>
-            <input type="text" id="keyboard-events" name="keyboard-events" required>
+            <input type="text" id="keyboard-events" name="keyboard-events" disabled>
 
             <br><label for="focus-blur">Focus and Blur:</label><br>
-            <textarea class="focus-blur" id="focus-blur" name="focus-blur" placeholder="Check our focus and blur events here!" required></textarea>
+            <input class="focus-blur" id="focus-blur" name="focus-blur" placeholder="Check our focus and blur events here!" required></textarea>
 
             <button class="mouse-events" id="mouse-events" type="submit">Submit</button>
-            <button class="button-A" id="button-A" type="button">Label A</button>
-            <button class="button-B" id="button-B" type="button">Label B</button>
+            <div id="event-delegation">
+                <button type="button">Edit Button</button>
+                <button type="button">Reset Button</button>
+            </div>
         </form>
     </div>
 </body>
